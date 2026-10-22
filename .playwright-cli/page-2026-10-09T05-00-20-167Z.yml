@@ -1,0 +1,348 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "ROSH Elevators" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e7]: ROSH
+        - generic [ref=e8]: Elevators
+      - navigation [ref=e9]:
+        - link "Voyage" [ref=e10] [cursor=pointer]:
+          - /url: "#voyage"
+        - link "Collection" [ref=e12] [cursor=pointer]:
+          - /url: "#collection"
+        - link "Specs" [ref=e13] [cursor=pointer]:
+          - /url: "#specs"
+        - link "Studio" [ref=e14] [cursor=pointer]:
+          - /url: "#studio"
+        - link "Contact" [ref=e15] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e16]:
+        - button "Switch to light theme" [ref=e17]
+        - link "Design yours" [ref=e21] [cursor=pointer]:
+          - /url: "#studio"
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e28]: "01"
+      - generic [ref=e31]: "02"
+      - generic [ref=e34]: "03"
+      - generic [ref=e37]: "04"
+      - generic [ref=e40]: "05"
+      - generic [ref=e43]: "06"
+      - generic [ref=e46]: "07"
+      - generic [ref=e49]: "08"
+      - generic [ref=e52]: "09"
+      - generic [ref=e55]: "10"
+      - generic [ref=e82]:
+        - generic [ref=e83]: Current floor
+        - generic [ref=e84]: "1"
+        - generic [ref=e85]: ROSH · HYDERABAD
+      - generic [ref=e87]:
+        - generic [ref=e88]: The vertical journey
+        - heading "Ride the city of light." [level=1] [ref=e89]: Ride thecity of light.
+        - paragraph [ref=e90]: ROSH builds home elevators that move like architecture — quiet geared and machine-room-less drives, finished to the square millimetre.
+      - generic [ref=e91]:
+        - article:
+          - generic:
+            - generic: "01"
+            - generic: System
+          - heading "Smart Destination Control" [level=3]:
+            - generic:
+              - generic: Smart
+              - generic: Destination
+              - generic: Control
+          - paragraph:
+            - generic:
+              - generic: Destination-aware
+              - generic: dispatch
+              - generic: learns
+              - generic: your
+              - generic: patterns,
+              - generic: groups
+              - generic: riders
+              - generic: by
+              - generic: floor
+              - generic: and
+              - generic: trims
+              - generic: wait
+              - generic: time
+              - generic: to
+              - generic: a
+              - generic: near-silent
+              - generic: glide.
+          - generic: ≤ 25 s average wait
+        - article:
+          - generic:
+            - generic: "02"
+            - generic: Drive
+          - heading "Sustainable Drive" [level=3]:
+            - generic:
+              - generic: Sustainable
+              - generic: Drive
+          - paragraph:
+            - generic:
+              - generic: A
+              - generic: regenerative
+              - generic: drive
+              - generic: feeds
+              - generic: energy
+              - generic: back
+              - generic: into
+              - generic: the
+              - generic: building
+              - generic: grid,
+              - generic: cutting
+              - generic: consumption
+              - generic: by
+              - generic: up
+              - generic: to
+              - generic: a
+              - generic: third
+              - generic: over
+              - generic: a
+              - generic: geared
+              - generic: system.
+          - generic: −30% energy draw
+        - article:
+          - generic:
+            - generic: "03"
+            - generic: System
+          - heading "Custom Cabin Design" [level=3]:
+            - generic:
+              - generic: Custom
+              - generic: Cabin
+              - generic: Design
+          - paragraph:
+            - generic:
+              - generic: Cabinetry
+              - generic: in
+              - generic: brushed
+              - generic: steel,
+              - generic: obsidian
+              - generic: glass
+              - generic: or
+              - generic: walnut
+              - generic: —
+              - generic: finished
+              - generic: to
+              - generic: your
+              - generic: interior,
+              - generic: lit
+              - generic: to
+              - generic: your
+              - generic: room,
+              - generic: sized
+              - generic: to
+              - generic: your
+              - generic: shaft.
+          - generic: 12 signature finishes
+      - generic [ref=e92]: Scroll · ascend
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]: The collection
+        - heading "Five series. One standard — silence." [level=2] [ref=e100]
+        - paragraph [ref=e101]: Every ROSH drive is engineered in Hyderabad, from the 272 kg cottage lift to the forty-stop high-rise — the same rails, the same finish, the same quiet.
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: "2004"
+          - generic [ref=e105]: building lifts since
+        - generic [ref=e106]:
+          - generic [ref=e107]: 132 m
+          - generic [ref=e108]: tallest standard rise
+        - generic [ref=e109]:
+          - generic [ref=e110]: "40"
+          - generic [ref=e111]: max stops, single car
+        - generic [ref=e112]:
+          - generic [ref=e113]: 3000 kg
+          - generic [ref=e114]: largest duty load
+      - generic [ref=e115]:
+        - article [ref=e116]:
+          - generic [ref=e117]:
+            - img "Jetta — Belt drive" [ref=e118]
+            - generic [ref=e120]: "01"
+            - generic [ref=e121]: Belt drive
+          - generic [ref=e122]:
+            - heading "Jetta" [level=3] [ref=e123]
+            - generic [ref=e124]: The quiet mover
+            - paragraph [ref=e125]: A belt-driven glide for homes and duplexes — near-silent traction, no machine-room overhead, stops soft as a held breath.
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e128]: 36 m
+                - generic [ref=e129]: Rise
+              - generic [ref=e130]:
+                - generic [ref=e131]: 1–2 m/s
+                - generic [ref=e132]: Speed
+              - generic [ref=e133]:
+                - generic [ref=e134]: 680 kg
+                - generic [ref=e135]: Load
+              - generic [ref=e136]:
+                - generic [ref=e137]: "12"
+                - generic [ref=e138]: Stops
+        - article [ref=e139]:
+          - generic [ref=e140]:
+            - img "Comfort — Geared · machine room" [ref=e141]
+            - generic [ref=e143]: "02"
+            - generic [ref=e144]: Geared · machine room
+          - generic [ref=e145]:
+            - heading "Comfort" [level=3] [ref=e146]
+            - generic [ref=e147]: The dependable classic
+            - paragraph [ref=e148]: Geared drive with a generous car and hotel-grade ride quality — built for buildings that run on one unsleeping machine.
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e151]: 36 m
+                - generic [ref=e152]: Rise
+              - generic [ref=e153]:
+                - generic [ref=e154]: 0.7–1 m/s
+                - generic [ref=e155]: Speed
+              - generic [ref=e156]:
+                - generic [ref=e157]: 3000 kg
+                - generic [ref=e158]: Load
+              - generic [ref=e159]:
+                - generic [ref=e160]: "12"
+                - generic [ref=e161]: Stops
+        - article [ref=e162]:
+          - generic [ref=e163]:
+            - img "Vegam — MRL" [ref=e164]
+            - generic [ref=e166]: "03"
+            - generic [ref=e167]: MRL
+          - generic [ref=e168]:
+            - heading "Vegam" [level=3] [ref=e169]
+            - generic [ref=e170]: The space whisperer
+            - paragraph [ref=e171]: Machine-room-less and plainly intelligent — the drive lives inside the shaft, and the energy stays in your building.
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: 54 m
+                - generic [ref=e175]: Rise
+              - generic [ref=e176]:
+                - generic [ref=e177]: 1–3 m/s
+                - generic [ref=e178]: Speed
+              - generic [ref=e179]:
+                - generic [ref=e180]: 3000 kg
+                - generic [ref=e181]: Load
+              - generic [ref=e182]:
+                - generic [ref=e183]: "18"
+                - generic [ref=e184]: Stops
+        - article [ref=e185]:
+          - generic [ref=e186]:
+            - img "Diamond — High rise" [ref=e187]
+            - generic [ref=e189]: "04"
+            - generic [ref=e190]: High rise
+          - generic [ref=e191]:
+            - heading "Diamond" [level=3] [ref=e192]
+            - generic [ref=e193]: The skyline standard
+            - paragraph [ref=e194]: Built for towers that answer to the sky — forty stops of controlled ascent, moving nearly two tonnes without a whisper of compromise.
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]: 132 m
+                - generic [ref=e198]: Rise
+              - generic [ref=e199]:
+                - generic [ref=e200]: 2–4 m/s
+                - generic [ref=e201]: Speed
+              - generic [ref=e202]:
+                - generic [ref=e203]: 2000 kg
+                - generic [ref=e204]: Load
+              - generic [ref=e205]:
+                - generic [ref=e206]: "40"
+                - generic [ref=e207]: Stops
+        - article [ref=e208]:
+          - generic [ref=e209]:
+            - img "Home Ride — Compact" [ref=e210]
+            - generic [ref=e212]: "05"
+            - generic [ref=e213]: Compact
+          - generic [ref=e214]:
+            - heading "Home Ride" [level=3] [ref=e215]
+            - generic [ref=e216]: The cottage lift
+            - paragraph [ref=e217]: A 600 mm pit, a single phase, four quiet stops — luxury vertical living fitted to the space you already have.
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - generic [ref=e220]: 12 m
+                - generic [ref=e221]: Rise
+              - generic [ref=e222]:
+                - generic [ref=e223]: 0.5 m/s
+                - generic [ref=e224]: Speed
+              - generic [ref=e225]:
+                - generic [ref=e226]: 272 kg
+                - generic [ref=e227]: Load
+              - generic [ref=e228]:
+                - generic [ref=e229]: "04"
+                - generic [ref=e230]: Stops
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - generic [ref=e233]: Engineering specs
+        - heading "Quiet where it counts, smart everywhere else." [level=2] [ref=e234]
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - generic [ref=e237]: Live floor counter
+          - generic [ref=e238]:
+            - generic [ref=e239]: "00"
+            - generic [ref=e240]: FLOOR
+          - paragraph [ref=e242]: Hover to run the counter — every ROSH drive reports its position in real time.
+        - generic [ref=e243]:
+          - generic [ref=e244]: Emergency braking · 3D cutaway
+          - paragraph [ref=e252]: Twin-caliper electromagnetic brake, tested in ISO 25745 conditions — grabs within 40 ms.
+        - generic [ref=e253]:
+          - generic [ref=e254]: 24 / 7 Cloud link
+          - paragraph [ref=e259]: Diagnostic telemetry streams to our Hyderabad NOC — remote fixes before you notice them.
+        - generic [ref=e260]:
+          - generic [ref=e261]: Rated speed
+          - generic [ref=e262]: 1.0 m/s
+          - paragraph [ref=e263]: Silent belt-drive and MRL configurations, tuned for ten storeys of home use.
+        - generic [ref=e264]:
+          - generic [ref=e265]: Capacity
+          - generic [ref=e266]: 630 kg
+          - paragraph [ref=e267]: Eight-person cabins balanced for dense family movement without oversized shafts.
+        - generic [ref=e268]:
+          - generic [ref=e269]: Cabin noise
+          - generic [ref=e270]: ≤ 40 dB
+          - paragraph [ref=e271]: Sound-treated panels, guided rail systems and anti-drift rope dampers.
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e275]:
+          - generic [ref=e276]: Cabin studio
+          - heading "Finish the cabin to your interior." [level=2] [ref=e277]
+          - paragraph [ref=e278]: Every ROSH cabin is Photoboxed to your room — pick a material, then our design studio ships a full-size mock of the finish before production.
+        - generic [ref=e279]:
+          - button "Brushed Steel" [ref=e280]
+          - button "Obsidian Glass" [ref=e281]
+          - button "Walnut Veneer" [ref=e282]
+        - generic [ref=e283]:
+          - generic [ref=e284]: Satin stainless
+          - paragraph [ref=e287]: Vertical-brushed 304 stainless with mirror edges and a halo cove light. The quiet workhorse look, refined.
+          - generic [ref=e288]: 304 SS · hairline finish · mirror trim
+          - link "Enquire about Brushed Steel" [ref=e291] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Enquire about Brushed Steel
+            - generic [aria-hidden] [ref=e292]: →
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - img "Brushed Steel cabin interior" [ref=e295]
+          - generic [ref=e296]:
+            - generic [ref=e297]: Brushed Steel
+            - generic [ref=e298]: N / 422 · 3
+        - generic [ref=e299]:
+          - generic [ref=e300]: Cove light
+          - generic [ref=e301]: Full-height mirror
+          - generic [ref=e302]: Anti-drift stabiliser
+          - generic [ref=e303]: Ceramic floor
+  - contentinfo [ref=e304]:
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]: ROSH
+            - generic [ref=e310]: Elevators
+          - paragraph [ref=e311]: Luxury home elevators from the makers of Rosh Elevators — India's home-lift specialists. Quiet drives, intelligent control, cabins finished like furniture.
+          - link "info@roshelevators.com" [ref=e312] [cursor=pointer]:
+            - /url: mailto:info@roshelevators.com
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - generic [ref=e315]: Corporate
+            - paragraph [ref=e316]: Plot 39, 3rd Floor, Road No. 5,Jubilee Hills,Hyderabad
+          - generic [ref=e317]:
+            - generic [ref=e318]: Manufacturing
+            - paragraph [ref=e319]: 11-6-56/K, Medplus Lane,Kukatpally, Balanagar,Hyderabad-37
+          - generic [ref=e320]:
+            - generic [ref=e321]: Reach us
+            - paragraph [ref=e322]: +91 90520 04318+91 77949 80055Mon–Sat · 9:00–18:00
+      - generic [ref=e323]:
+        - generic [ref=e324]: © 2026 ROSH · Rosh Elevators, Hyderabad
+        - generic [ref=e325]: Quiet · Smart · Bespoke

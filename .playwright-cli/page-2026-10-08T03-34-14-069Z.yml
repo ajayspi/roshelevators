@@ -1,0 +1,215 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "ROSH Elevators" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e7]: ROSH
+        - generic [ref=e8]: Elevators
+      - navigation [ref=e9]:
+        - link "Voyage" [ref=e10] [cursor=pointer]:
+          - /url: "#voyage"
+        - link "Specs" [ref=e12] [cursor=pointer]:
+          - /url: "#specs"
+        - link "Studio" [ref=e13] [cursor=pointer]:
+          - /url: "#studio"
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Design yours" [ref=e15] [cursor=pointer]:
+        - /url: "#studio"
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e22]: "01"
+      - generic [ref=e25]: "02"
+      - generic [ref=e28]: "03"
+      - generic [ref=e31]: "04"
+      - generic [ref=e34]: "05"
+      - generic [ref=e37]: "06"
+      - generic [ref=e40]: "07"
+      - generic [ref=e43]: "08"
+      - generic [ref=e46]: "09"
+      - generic [ref=e49]: "10"
+      - generic [ref=e76]:
+        - generic [ref=e77]: Current floor
+        - generic [ref=e78]: "1"
+        - generic [ref=e79]: ROSH · HYDERABAD
+      - generic [ref=e81]:
+        - generic [ref=e82]: The vertical journey
+        - heading "Ride the city of light." [level=1] [ref=e83]: Ride thecity of light.
+        - paragraph [ref=e84]: ROSH builds home elevators that move like architecture — quiet geared and machine-room-less drives, finished to the square millimetre.
+      - generic [ref=e85]:
+        - article:
+          - generic:
+            - generic: "01"
+            - generic: System
+          - heading "Smart Destination Control" [level=3]:
+            - generic:
+              - generic: Smart
+              - generic: Destination
+              - generic: Control
+          - paragraph:
+            - generic:
+              - generic: Destination-aware
+              - generic: dispatch
+              - generic: learns
+              - generic: your
+              - generic: patterns,
+              - generic: groups
+              - generic: riders
+              - generic: by
+              - generic: floor
+              - generic: and
+              - generic: trims
+              - generic: wait
+              - generic: time
+              - generic: to
+              - generic: a
+              - generic: near-silent
+              - generic: glide.
+          - generic: ≤ 25 s average wait
+        - article:
+          - generic:
+            - generic: "02"
+            - generic: Drive
+          - heading "Sustainable Drive" [level=3]:
+            - generic:
+              - generic: Sustainable
+              - generic: Drive
+          - paragraph:
+            - generic:
+              - generic: A
+              - generic: regenerative
+              - generic: drive
+              - generic: feeds
+              - generic: energy
+              - generic: back
+              - generic: into
+              - generic: the
+              - generic: building
+              - generic: grid,
+              - generic: cutting
+              - generic: consumption
+              - generic: by
+              - generic: up
+              - generic: to
+              - generic: a
+              - generic: third
+              - generic: over
+              - generic: a
+              - generic: geared
+              - generic: system.
+          - generic: −30% energy draw
+        - article:
+          - generic:
+            - generic: "03"
+            - generic: System
+          - heading "Custom Cabin Design" [level=3]:
+            - generic:
+              - generic: Custom
+              - generic: Cabin
+              - generic: Design
+          - paragraph:
+            - generic:
+              - generic: Cabinetry
+              - generic: in
+              - generic: brushed
+              - generic: steel,
+              - generic: obsidian
+              - generic: glass
+              - generic: or
+              - generic: walnut
+              - generic: —
+              - generic: finished
+              - generic: to
+              - generic: your
+              - generic: interior,
+              - generic: lit
+              - generic: to
+              - generic: your
+              - generic: room,
+              - generic: sized
+              - generic: to
+              - generic: your
+              - generic: shaft.
+          - generic: 12 signature finishes
+      - generic [ref=e86]: Scroll · ascend
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: Engineering specs
+        - heading "Quiet where it counts, smart everywhere else." [level=2] [ref=e93]
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: Live floor counter
+          - generic [ref=e97]:
+            - generic [ref=e98]: "00"
+            - generic [ref=e99]: FLOOR
+          - paragraph [ref=e101]: Hover to run the counter — every ROSH drive reports its position in real time.
+        - generic [ref=e102]:
+          - generic [ref=e103]: Emergency braking · 3D cutaway
+          - paragraph [ref=e111]: Twin-caliper electromagnetic brake, tested in ISO 25745 conditions — grabs within 40 ms.
+        - generic [ref=e112]:
+          - generic [ref=e113]: 24 / 7 Cloud link
+          - paragraph [ref=e118]: Diagnostic telemetry streams to our Hyderabad NOC — remote fixes before you notice them.
+        - generic [ref=e119]:
+          - generic [ref=e120]: Rated speed
+          - generic [ref=e121]: 1.0 m/s
+          - paragraph [ref=e122]: Silent belt-drive and MRL configurations, tuned for ten storeys of home use.
+        - generic [ref=e123]:
+          - generic [ref=e124]: Capacity
+          - generic [ref=e125]: 630 kg
+          - paragraph [ref=e126]: Eight-person cabins balanced for dense family movement without oversized shafts.
+        - generic [ref=e127]:
+          - generic [ref=e128]: Cabin noise
+          - generic [ref=e129]: ≤ 40 dB
+          - paragraph [ref=e130]: Sound-treated panels, guided rail systems and anti-drift rope dampers.
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]: Cabin studio
+          - heading "Finish the cabin to your interior." [level=2] [ref=e136]
+          - paragraph [ref=e137]: Every ROSH cabin is Photoboxed to your room — pick a material, then our design studio ships a full-size mock of the finish before production.
+        - generic [ref=e138]:
+          - button "Brushed Steel" [ref=e139]
+          - button "Obsidian Glass" [ref=e140]
+          - button "Walnut Veneer" [ref=e141]
+        - generic [ref=e142]:
+          - generic [ref=e143]: Satin stainless
+          - paragraph [ref=e146]: Vertical-brushed 304 stainless with mirror edges and a halo cove light. The quiet workhorse look, refined.
+          - generic [ref=e147]: 304 SS · hairline finish · mirror trim
+          - link "Enquire about Brushed Steel" [ref=e150] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Enquire about Brushed Steel
+            - generic [aria-hidden] [ref=e151]: →
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - img "Brushed Steel cabin interior" [ref=e154]
+          - generic [ref=e155]:
+            - generic [ref=e156]: Brushed Steel
+            - generic [ref=e157]: N / 422 · 3
+        - generic [ref=e158]:
+          - generic [ref=e159]: Cove light
+          - generic [ref=e160]: Full-height mirror
+          - generic [ref=e161]: Anti-drift stabiliser
+          - generic [ref=e162]: Ceramic floor
+  - contentinfo [ref=e163]:
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: ROSH
+            - generic [ref=e169]: Elevators
+          - paragraph [ref=e170]: Luxury home elevators from the makers of Rosh Elevators — India's home-lift specialists. Quiet drives, intelligent control, cabins finished like furniture.
+          - link "info@roshelevators.com" [ref=e171] [cursor=pointer]:
+            - /url: mailto:info@roshelevators.com
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - generic [ref=e174]: Corporate
+            - paragraph [ref=e175]: Plot 39, 3rd Floor, Road No. 5,Jubilee Hills,Hyderabad
+          - generic [ref=e176]:
+            - generic [ref=e177]: Manufacturing
+            - paragraph [ref=e178]: 11-6-56/K, Medplus Lane,Kukatpally, Balanagar,Hyderabad-37
+          - generic [ref=e179]:
+            - generic [ref=e180]: Reach us
+            - paragraph [ref=e181]: +91 90520 04318+91 77949 80055Mon–Sat · 9:00–18:00
+      - generic [ref=e182]:
+        - generic [ref=e183]: © 2026 ROSH · Rosh Elevators, Hyderabad
+        - generic [ref=e184]: Quiet · Smart · Bespoke

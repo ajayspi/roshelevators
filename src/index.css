@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+/* class-based dark variant: `.dark` on <html> enables the deep-navy theme */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* LIGHT (default) — brand-native: white/ice + navy family from official logo */
+  --color-ink: #f4f6fc;
+  --color-ink-2: #eaeefb;
+  --color-panel: #ffffff;
+  --color-panel-2: #eef1fc;
+  --color-line: rgba(39, 56, 145, 0.14);
+  --color-line-soft: rgba(39, 56, 145, 0.08);
+  --color-mist: #4c5480;
+  --color-dim: #878fb8;
+  --color-fg: #0e1330;
+  --color-gold: #273891;   /* brand navy — primary */
+  --color-gold-soft: #4966d4;  /* brand royal */
+  --color-gold-deep: #16206b;  /* deep navy */
+  --color-ember: #fb3543;  /* one measured accent */
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+}
+
+/* dark theme — deep navy companion (#020d47 field from the brand book) */
+.dark {
+  --color-ink: #030c33;
+  --color-ink-2: #081438;
+  --color-panel: #0a1745;
+  --color-panel-2: #101e57;
+  --color-line: rgba(165, 180, 255, 0.14);
+  --color-line-soft: rgba(165, 180, 255, 0.08);
+  --color-mist: #a6b2e8;
+  --color-dim: #6f7db4;
+  --color-fg: #eef1ff;
+  --color-gold: #5d76e0;   /* luminous navy for dark fields */
+  --color-gold-soft: #9db0ff;  /* periwinkle */
+  --color-gold-deep: #273891;
+  --color-ember: #ff5b66;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-ink);
+}
+
+body {
+  @apply bg-ink text-fg font-sans antialiased;
+  background-image:
+    radial-gradient(1200px 800px at 50% -10%, color-mix(in srgb, var(--color-gold) 7%, transparent), transparent 60%),
+    radial-gradient(900px 700px at 90% 110%, color-mix(in srgb, var(--color-gold) 5%, transparent), transparent 60%);
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--color-dim) 38%, transparent);
+  border-radius: 9px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--color-dim) 60%, transparent);
+}
+
+/* -- token utilities -- */
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* thin hairline helper */
+.hairline {
+  border: 1px solid var(--color-line);
+}
+
+/* brand navy gradient text (kept class name for zero churn) */
+.gold-gradient-text {
+  background: linear-gradient(
+    100deg,
+    var(--color-gold-soft) 0%,
+    var(--color-gold) 45%,
+    var(--color-gold-deep) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* subtle film grain */
+.noise::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* proposal route scope — rose-gold theme tokens + rolling Jetta belt.
+   ponytail: scoped so the main site keeps its navy theme; delete if /proposal becomes a redirect. */
+.proposal-theme {
+  --color-ink: #07080a;
+  --color-ink-2: #0b0d11;
+  --color-panel: #0e1116;
+  --color-panel-2: #13161c;
+  --color-line: rgba(255, 255, 255, 0.08);
+  --color-line-soft: rgba(255, 255, 255, 0.05);
+  --color-mist: #a7adb8;
+  --color-dim: #6c7280;
+  --color-fg: #f4f4f5;
+  --color-gold: #d99c7d;
+  --color-gold-soft: #f6cfb8;
+  --color-gold-deep: #9e5f3d;
+  background: var(--color-ink);
+  color: var(--color-fg);
+}
+@keyframes belt-roll {
+  to {
+    background-position-y: 24px;
+  }
+}
+.belt-roll {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--color-gold) 0 4px,
+    transparent 4px 12px
+  );
+  animation: belt-roll 0.9s linear infinite;
+}
+
+/* honour prefers-reduced-motion: stop all continuous CSS animation/transition
+   (the marquee ticker, the cabin sheen, scroll hints). Framer-driven animations
+   are handled separately via <MotionConfig reducedMotion="user">. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

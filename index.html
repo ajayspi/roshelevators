@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#273891" />
+    <script>
+      // apply saved theme before first paint (no flash of wrong theme)
+      try {
+        if (localStorage.getItem('rosh-theme') === 'dark') document.documentElement.classList.add('dark')
+      } catch (e) {}
+    </script>
+    <title>ROSH Elevators · Luxury Lifts & Home Elevators — Hyderabad</title>
+    <meta name="description" content="ROSH Elevators Pvt. Ltd. — luxury home elevators and passenger lifts from Hyderabad since 2004. Belt drive, MRL, geared and gearless lifts with 2,500+ installations and a 0.5% breakdown ratio." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
