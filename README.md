@@ -1,5 +1,7 @@
 # ROSH Elevators — Marketing Site
 
+![ROSH Elevators - live site](docs/screenshots/rosh-elevators.jpg)
+
 React 19 + Vite 8 + Tailwind CSS v4 + framer-motion v14. The luxury home
 elevator marketing site for ROSH Elevators Pvt. Ltd. (Hyderabad).
 
